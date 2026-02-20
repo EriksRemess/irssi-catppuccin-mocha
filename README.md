@@ -29,7 +29,13 @@ make uninstall
 You can override the destination directory:
 
 ```bash
-make install THEMES_DIR=/path/to/.irssi/themes
+make install THEMES_DIR=/path/to/.irssi
+```
+
+If your Irssi build expects themes in `~/.irssi/themes`, use:
+
+```bash
+make install THEMES_DIR=~/.irssi/themes
 ```
 
 ## Notes

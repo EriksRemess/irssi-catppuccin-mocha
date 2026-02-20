@@ -1,5 +1,6 @@
 THEME_FILE := catppuccin-mocha.theme
-THEMES_DIR ?= $(HOME)/.irssi/themes
+# Most Irssi builds load user themes from ~/.irssi/<name>.theme
+THEMES_DIR ?= $(HOME)/.irssi
 TARGET := $(THEMES_DIR)/$(THEME_FILE)
 
 .PHONY: install uninstall
